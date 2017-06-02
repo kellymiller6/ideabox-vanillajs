@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffcc;
+}
+
+header {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px;
+  color: #660066;
+}
+
+header button {
+  width: 20%;
+}
+input {
+  margin: 10px;
+}
+
+textarea {
+  margin: 10px;
+  width: 50%;
+}
+
+#div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  color: #ffffcc;
+  background-color: #660066;
+  border: 1px solid #ffffcc;
+}
+
+.delete-btn{
+  color: #660066;
+  background-color: #ffffcc;
+  border: none;
+}
